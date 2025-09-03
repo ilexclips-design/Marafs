@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marafs Laundry Service</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Hero Section */
+    header {
+      background: linear-gradient(135deg, #0066cc, #00aaff);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+    }
+
+    .call-btn {
+      background: #ffcc00;
+      color: #333;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .call-btn:hover {
+      background: #ffdb4d;
+    }
+
+    /* Price Section */
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #0066cc;
+    }
+
+    .prices {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .card p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #0066cc;
+    }
+
+    /* Footer */
+    footer {
+      background: #0066cc;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Marafs Laundry Service</h1>
+    <p>Fresh. Clean. Pressed to Perfection.</p>
+    <a href="tel:+2349165675540" class="call-btn">📞 Call Us: +2349165675540</a>
+  </header>
+
+  <!-- Price Section -->
+  <section>
+    <h2>Our Prices</h2>
+    <div class="prices">
+      <div class="card">
+        <h3>Suit (per set)</h3>
+        <p>₦2000</p>
+      </div>
+      <div class="card">
+        <h3>T-shirt</h3>
+        <p>₦500</p>
+      </div>
+      <div class="card">
+        <h3>Kaftan</h3>
+        <p>₦1000</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Marafs Laundry Service | Keeping You Fresh & Confident</p>
+  </footer>
+
+</body>
+</html>
